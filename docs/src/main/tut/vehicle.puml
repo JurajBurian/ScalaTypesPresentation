@@ -1,0 +1,32 @@
+@startuml
+
+interface Vehicle
+
+interface SpaceVehicle --|> Vehicle
+
+interface AirVehicle --|> Vehicle
+
+interface LandVehicle --|> Vehicle
+
+interface WaterVehicle --|> Vehicle
+
+interface Rocket ---|> SpaceVehicle
+interface Shuttle ---|> SpaceVehicle
+
+interface Balloon ---|> AirVehicle
+interface Aircraft ---|> AirVehicle
+
+interface  Ship ---|> WaterVehicle
+interface Submarine ---|> WaterVehicle
+
+interface Bike ---|> LandVehicle
+interface Car ---|> LandVehicle
+
+interface PersonalCar --|> Car
+interface Truck --|> Car
+interface Formula --|> Car
+
+interface MountainBike --|> Bike
+interface RoadBike --|> Bike
+
+@enduml

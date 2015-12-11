@@ -1,0 +1,5 @@
+* [Type hierarchy](TypeHierarchy.md)
+* [Primitive Types](PrimitiveTypes.md)
+* [Parametric Types](ParametricTypes.md)
+* [Type Inference](TypeInference.md)
+* [Slide 3](3.md)
